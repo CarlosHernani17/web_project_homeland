@@ -40,7 +40,7 @@
   .lead__subtitle {
     font-size: 30px;
     max-width: 100%;
-    margin-bottom: 48px;
+    margin-bottom: 30px;
   }
   .lead__image {
     height: 450px;
@@ -48,6 +48,10 @@
 }
 
 @media screen and (max-width: 544px) {
+  .lead {
+    margin-bottom: 64px;
+  }
+
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
