@@ -8,6 +8,7 @@
 
 .places__card {
   display: grid;
+  grid-template-rows: auto 460px auto;
   grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "title artist"
