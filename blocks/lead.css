@@ -30,7 +30,6 @@
   object-fit: cover;
 }
 
-/* Media Queries do Bloco */
 @media screen and (max-width: 1024px) {
   .lead__title {
     font-size: 75px;
