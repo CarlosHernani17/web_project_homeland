@@ -1,8 +1,5 @@
 .intro {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
 }
 
 .intro__title {
@@ -38,6 +35,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .intro {
+    padding: 0 24px;
+  }
+
   .intro__title {
     font-size: 45px;
     line-height: 1.1;
@@ -60,6 +61,10 @@
 }
 
 @media screen and (max-width: 544px) {
+  .intro {
+    padding: 0 16px;
+  }
+
   .intro__title {
     font-size: 32px;
     line-height: 1.1;

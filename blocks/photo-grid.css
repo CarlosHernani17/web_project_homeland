@@ -17,6 +17,7 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 88px;
     gap: 12px;
+    padding: 0 24px;
   }
 }
 
@@ -25,6 +26,7 @@
     grid-template-columns: 1fr;
     margin-top: 64px;
     gap: 12px;
+    padding: 0 16px;
   }
 
   .photo-grid__image {

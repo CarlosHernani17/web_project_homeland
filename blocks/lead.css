@@ -31,6 +31,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .lead {
+    padding: 0 24px;
+  }
+
   .lead__title {
     font-size: 75px;
     max-width: 100%;
@@ -41,14 +45,18 @@
     max-width: 100%;
     margin-bottom: 30px;
   }
+
   .lead__image {
     height: 450px;
+    width: calc(100% + 48px);
+    max-width: calc(100% + 48px);
   }
 }
 
 @media screen and (max-width: 544px) {
   .lead {
     margin-bottom: 64px;
+    padding: 0 16px;
   }
 
   .lead__title {
@@ -63,5 +71,7 @@
   }
   .lead__image {
     height: 250px;
+    width: calc(100% + 32px);
+    max-width: calc(100% + 32px);
   }
 }
